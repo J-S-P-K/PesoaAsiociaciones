@@ -13,17 +13,7 @@ class NotaSeeder extends Seeder
      */
     public function run(): void
     {
-        Nota::create([
-            'materia'       => 'Eco11', 
-            'estudiante_id' => '1' ,
-            'nota' => '6'
-            ]);
-
-            Nota::create([
-            'materia'       => 'Eco11', 
-            'estudiante_id' => '3' ,
-            'nota' => '8'
-
-            ]);
+        Nota::create(['materia' => 'Eco11','estudiante_id' => '1' ,'nota' => '6']);
+        Nota::create(['materia' => 'Eco11','estudiante_id' => '3' ,'nota' => '8']);
     }
 }

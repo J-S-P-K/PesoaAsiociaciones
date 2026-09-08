@@ -1,19 +1,5 @@
-HOLA PROFE!
-le dejo mi historial de la terminal jaja, asi vé mas o menos mi proceso. Eliminaré los comandos repetidos o innesesarios de por medio.
-  520  cd Documentos/Codes/laravel/
-  521  ls
-  528  composer --version
-  530  git log
-  532  php artisan make:model Estudiante -a
-  533  php artisan migrate
-  534  php artisan db:seed
-  536  sudo pacman -S php-sqlite 
-  538  php artisan migrate
-  539  php artisan db:seed
-  541  php artisan make:model Nota -a
-  548  php artisan migrate
-  553  php artisan db:seed
-  554  php artisan tinker
-  555  clear
-  556  git log
-  557  history
+RECUERDE LEER ESTO COMO CÓDIGO Y NO COMO VIENE POR DEFECTO
+
+HOLA PROFE de nuevo
+
+No sé si lea estos archivos al corregir o solo me pida ver la carpeta, pero bueno. Terminé el trabajo de yield, stack y push. debe entrar a "/notas" para ver la tabla de notas donde va a traer por cada nota jaja. La página como tal está hecha con Geminis, pero comprendí el  cómo meter un pedazo de página en un molde principal con section y yield. Aparte de el cómo incluir JS y CSS dinámico usando estos mismos recursos.

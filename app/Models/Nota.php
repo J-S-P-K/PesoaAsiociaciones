@@ -14,4 +14,15 @@ class Nota extends Model
         'estudiante_id',
         'nota'
     ];
+
+    public function estudiante()
+    {
+        return $this->belongsTo(Estudiante::class);
+    }
+
+    public function nota_ind() //dejo esto que me causó gracia re-ver.
+    {
+        return $this->nota . " - " . $this->estudiante->nombre;
+    }
+
 }

@@ -10,4 +10,9 @@ class Estudiante extends Model
     /** @use HasFactory<\Database\Factories\EstudianteFactory> */
     use HasFactory;
     protected $fillable = ['nombre','dni','curso'];
+
+    public function provinces()
+    {
+        return $this->hasMany(Nota::class);
+    }
 }
